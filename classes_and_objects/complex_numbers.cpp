@@ -17,8 +17,6 @@ public:
 		real = x;
 		imag = y;
 	}
-	
-	// The addition and subtraction operators by defaut promote arguments to the double data type.
 
 	Complex<T> operator+ (const Complex& Z) const {
 		return Complex(real + Z.real, imag + Z.imag);
